@@ -1,0 +1,22 @@
+<span class="newsbox">
+    <p class="date">15.05.2013</p>
+    <p class="text">
+     <h1>Hallo123</h1>
+     Sers andi wie gehts?
+     </p>
+</span>
+<span class="newsbox">
+    <p class="date">09.05.2013</p>
+    <p class="text">
+     <h1>Release 0.43</h1>
+     Heute Released die neue Version der Homepage 0.43
+     </p>
+</span>
+
+<span class="newsbox">
+    <p class="date">09.05.2013</p>
+    <p class="text">
+     <h1>Hallo</h1>
+     Was gayed?
+     </p>
+</span>

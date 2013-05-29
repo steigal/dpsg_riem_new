@@ -1,0 +1,83 @@
+body,img{
+ margin:                         0;
+ padding:                        0;
+ font-family:                    "Times";
+ font-size:                      17px;
+ background-color:               #EEEEEE;
+}
+
+#head_page {
+ width:                          100%;
+ margin:                         0 auto;
+ background-color:               #EEEEEE;
+ text-align:                     center;
+ border-bottom:                  black solid 1px;
+}
+
+#navi_inhalt {
+ width:                          1000px;
+ margin:                         0 auto;
+ background-color:               #EEEEEE;
+ text-align:                     left;
+}
+
+#inhalt {
+ float:                          left;
+ width:                          820px;
+ overflow:                       hidden;
+ height:                         550px;
+ padding:                        0;
+ text-align:                     left;
+}
+
+#content {
+ background-color:               #FFFFCC;
+ overflow:                       auto;
+ height:                         550px;
+ padding:                        0;
+ text-align:                     left;
+}
+
+.gpictures{
+ display:                        block;
+ height:                         102px;
+ width:                          95%;
+ background:                     none;
+ margin-top:                     30px;
+ overflow:                       auto;
+ border:                         1px black solid;
+ padding:                        2px;
+}
+
+
+.versionlist {
+ list-style:                     none;
+ padding:                        0;
+ margin:                         0;
+ margin-left:                    30px;
+}
+
+#content a:link { color:#0C63E4; text-decoration:none; }
+#content a:visited { color:#0C63E4; text-decoration:none; }
+#content a:focus { color:#0C63E4; text-decoration:none; }
+#content a:hover { color:#990000; text-decoration:none;}
+#content a:active { color:#0C63E4; text-decoration:none; }
+
+#footer {
+ width:                          1000px;
+ background:                     none;
+ text-align:                     center;
+ color:                          #999999;
+}
+
+#footer a:link { color:black; text-decoration:none; }
+#footer a:visited { color:black; text-decoration:none; }
+#footer a:focus { color:black; text-decoration:none; }
+#footer a:hover { color:blue; text-decoration:none;}
+#footer a:active { color:black; text-decoration:none; }
+
+.clearfloat {
+ clear:                          both;
+ height:                         0;
+ visibility:                     hidden;
+}

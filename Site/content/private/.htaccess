@@ -1,0 +1,23 @@
+# .htaccess-Datei für Zugang /intern
+
+AuthType Basic
+Order deny,allow
+AuthName "Admin-Bereich DPSG RIEM GAGA"
+AuthUserFile /home/strato/www/dp/www.dpsg-riem.de/content/private/.htpasswd
+require valid-user
+
+# Fehlerbehandlung mit .htaccess
+ErrorDocument 401 "Seite nicht vorhanden"
+ErrorDocument 400 "Falsche Anfrage"
+ErrorDocument 403 "Verboten"
+ErrorDocument 500 "Server Error"
+ErrorDocument 404 "Das ist die falsche Seite"
+
+
+# 401 - Authorization Required
+# 400 - Bad request
+# 403 - Forbidden
+# 500 - Internal Server Error
+# 404 - Wrong page
+
+# Abfangen des Fehlers beim drücken von "abbrechen"
